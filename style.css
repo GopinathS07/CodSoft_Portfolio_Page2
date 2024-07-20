@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-size:100% 450px;
+    overflow-x: hidden;
+}
+header{
+    width:100%;
+    height:100px;
+    position: relative;
+    top:0;
+    left:0;
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 1000;
+}
+header img{
+    margin-left: -20px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    gap:20px;
+}
+header ul li{
+    list-style: none;margin-top: -5px;
+}
+header ul li a{
+    position: relative;
+    text-decoration: none;
+    font-size: 1.2em;
+    color:black;
+    letter-spacing: 0.1em;
+    margin-left: 20px;
+    
+}
+header ul li a::before{
+    content:'';
+    position: absolute;
+    width:100%;
+    height:2px;
+    background:#6600ff;
+    bottom: -2px;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+    transform-origin:right;
+}
+header ul li a:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.title .saad{
+    margin-top: 85px;
+    font-size: 75px;
+   font-weight: 500;
+   color: black;
+}
+.title p{
+    margin-top: 20px;
+    color:#868e96;
+   font-weight: 100;
+   line-height: 40px;
+   font-size: 30px;
+   width: 55%;
+   letter-spacing: 1.5px;
+}
+.title button{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    height: 55px;
+    border-radius: 5px;
+    margin-top:30px;
+    padding: 0 20px 0 20px;
+    margin-right: 40px;
+    background-color:#55198b;
+    border: solid #55198b;
+    cursor: pointer;
+}
+.title button:hover{
+    background-color:white;
+    color: #55198b;
+    border: solid #55198b;
+}
+.title{
+    margin-left: 2cm;
+}
+.title h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.title .saad-img img{
+    width: 600px;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: -70px;
+}
+
+.title1{
+    margin-left: 20.5cm;line-height: 25px;
+}
+.title1 h1{
+    font-size: 55px;
+    margin-top: 4.5cm;
+    font-weight: lighter;
+    
+}
+.title1 img{
+    width: 650px;
+}
+.title1 .worker{
+    position: absolute;
+    margin-left: -19cm;
+    margin-top: -4cm;
+}
+.title1 h5{
+    margin-top: 20px;
+    color:#868e96;
+   font-weight: 100;
+   font-size: 20px;
+   width: 18cm;
+   line-height: 30px;
+}
+.title1 li{
+    list-style: none;
+    margin-top: 20px;
+    color:#868e96;
+   font-weight: 100;
+   font-size: 21px;
+   width: 18cm;
+}
+
+.proficiency img{
+    position: absolute;
+    width: 50%;
+    margin-top: -6cm;
+    margin-left: 43%;
+}
+.proficiency h3{
+    font-size: 60px;
+    margin-top: 3.9cm;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+.proficiency{
+    margin-left: 80px;
+    line-height: 40px;margin-bottom: 40px;
+}
+.proficiency label{
+    color:#868e96;
+   font-weight: lighter;
+   font-size: 25px;
+   line-height: 2.5cm;
+}
+.range{
+    width: 40%;
+    background-color: #f3efef;
+    border-radius: 10px;
+}
+.frontend {width: 90%; background-color: #9494ce;border-radius: 10px; height: 20px;}
+.backend {width: 70%; background-color: #9494ce;border-radius: 10px; height: 20px;}
+.programming {width: 50%; background-color: #9494ce;border-radius: 10px; height: 20px;}
+
+.contact img{
+    width: 200px;
+    border-radius: 100px;
+    position: absolute;
+}
+.contact .profile{
+    margin: 100px 0 100px 80px;
+}
+.contact h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.contact h5{
+    color:#868e96;
+   font-weight: lighter;
+   font-size: 20px;
+}
+.contact .profile .photo{
+    margin-left: 80%;
+}
